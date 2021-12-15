@@ -1,5 +1,14 @@
 # @ctx-core/svg-ui-svelte
 
+## 1.0.2
+
+### Patch Changes
+
+- package.json: svelte: ./dist/index.js
+- Updated dependencies
+  - @ctx-core/array@23.0.34
+  - @ctx-core/object@22.0.1
+
 ## 1.0.1
 
 ### Patch Changes
