@@ -1,5 +1,14 @@
 # @ctx-core/svg-ui-svelte
 
+## 1.0.7
+
+### Patch Changes
+
+- package.json: "types": "./src/index.ts": better editing experience
+- Updated dependencies
+  - @ctx-core/array@23.0.39
+  - @ctx-core/object@22.0.6
+
 ## 1.0.6
 
 ### Patch Changes
