@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/svg-ui-svelte",
-	"version": "1.0.9",
+	"version": "1.0.10",
 	"description": "ctx-core svg",
 	"keywords": [
 		"ctx-core",
@@ -17,7 +17,7 @@
 	"license": "Apache-2.0",
 	"author": "Brian Takita",
 	"type": "module",
-	"types": "./src/index.ts",
+	"types": "./dist/index.d.ts",
 	"exports": {
 		".": {
 			"browser": "./dist/index.browser.js",
@@ -36,12 +36,12 @@
 		"prepublishOnly": "npm run clean && npm run build"
 	},
 	"dependencies": {
-		"@ctx-core/array": "workspace:^23.0.40",
-		"@ctx-core/object": "workspace:^22.0.7"
+		"@ctx-core/array": "workspace:^23.0.41",
+		"@ctx-core/object": "workspace:^22.0.8"
 	},
 	"devDependencies": {
-		"@ctx-core/ctx-core-package-tools": "workspace:^8.0.94",
-		"@ctx-core/svg": "workspace:^16.0.7",
+		"@ctx-core/ctx-core-package-tools": "workspace:^8.0.95",
+		"@ctx-core/svg": "workspace:^16.0.8",
 		"@sveltejs/adapter-auto": "next",
 		"@sveltejs/kit": "next",
 		"@swc/cli": "^0.1.55",
