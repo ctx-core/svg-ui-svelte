@@ -1,5 +1,11 @@
 # @ctx-core/svg-ui-svelte
 
+## 1.0.9
+
+### Patch Changes
+
+- fix: npm publish: + .npmignore
+
 ## 1.0.8
 
 ### Patch Changes
