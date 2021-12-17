@@ -1,5 +1,14 @@
 # @ctx-core/svg-ui-svelte
 
+## 1.0.8
+
+### Patch Changes
+
+- tsconfig.json: "target": "ES2021"
+- Updated dependencies
+  - @ctx-core/array@23.0.40
+  - @ctx-core/object@22.0.7
+
 ## 1.0.7
 
 ### Patch Changes
