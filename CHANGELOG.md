@@ -1,5 +1,11 @@
 # @ctx-core/svg-ui-svelte
 
+## 1.0.11
+
+### Patch Changes
+
+- fix: vite integration: remove ts files
+
 ## 1.0.10
 
 ### Patch Changes
