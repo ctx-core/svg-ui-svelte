@@ -1,5 +1,11 @@
 # @ctx-core/svg-ui-svelte
 
+## 1.1.0
+
+### Minor Changes
+
+- - markup,markup*,svg_preprocess*: from @ctx-core/svg
+
 ## 1.0.11
 
 ### Patch Changes
