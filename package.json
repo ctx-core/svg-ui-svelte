@@ -33,7 +33,7 @@
 		"prepublishOnly": "npm run clean && npm run build"
 	},
 	"dependencies": {
-		"@ctx-core/array": "workspace:^23.0.41",
+		"@ctx-core/array": "workspace:^23.1.0",
 		"@ctx-core/error": "workspace:^11.1.17",
 		"@ctx-core/object": "workspace:^22.0.8",
 		"svelte": "^3.44.3"
