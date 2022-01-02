@@ -34,12 +34,12 @@
 	},
 	"dependencies": {
 		"@ctx-core/array": "workspace:^23.1.0",
-		"@ctx-core/error": "workspace:^11.1.17",
+		"@ctx-core/error": "workspace:^11.1.18",
 		"@ctx-core/object": "workspace:^22.0.8",
 		"svelte": "^3.44.3"
 	},
 	"devDependencies": {
-		"@ctx-core/svg": "workspace:^17.0.5",
+		"@ctx-core/svg": "workspace:^17.0.6",
 		"@sveltejs/adapter-auto": "next",
 		"@sveltejs/kit": "next",
 		"@swc/cli": "^0.1.55",
