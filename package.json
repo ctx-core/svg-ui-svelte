@@ -36,7 +36,7 @@
 		"@ctx-core/array": "workspace:^23.1.4",
 		"@ctx-core/error": "workspace:^11.1.23",
 		"@ctx-core/object": "workspace:^22.0.12",
-		"svelte": "^3.45.0"
+		"svelte": "^3.46.1"
 	},
 	"devDependencies": {
 		"@ctx-core/svg": "workspace:^17.0.13",
