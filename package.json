@@ -34,7 +34,7 @@
 	},
 	"dependencies": {
 		"@ctx-core/array": "workspace:^24.0.0",
-		"@ctx-core/error": "workspace:^11.1.23",
+		"@ctx-core/error": "workspace:^11.2.0",
 		"@ctx-core/object": "workspace:^22.0.13",
 		"svelte": "^3.46.2"
 	},
