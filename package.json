@@ -33,13 +33,13 @@
 		"prepublishOnly": "npm run clean && npm run build"
 	},
 	"dependencies": {
-		"@ctx-core/array": "workspace:^24.0.1",
-		"@ctx-core/error": "workspace:^11.3.0",
-		"@ctx-core/object": "workspace:^22.0.13",
+		"@ctx-core/array": "^24.0.1",
+		"@ctx-core/error": "^11.3.0",
+		"@ctx-core/object": "^22.0.13",
 		"svelte": "^3.46.4"
 	},
 	"devDependencies": {
-		"@ctx-core/svg": "workspace:^18.0.2",
+		"@ctx-core/svg": "^18.0.2",
 		"@sveltejs/adapter-auto": "next",
 		"@sveltejs/kit": "next",
 		"@swc/cli": "^0.1.55",
