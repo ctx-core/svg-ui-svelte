@@ -39,11 +39,11 @@
 		"svelte": "^3.46.4"
 	},
 	"devDependencies": {
-		"@ctx-core/svg": "^18.0.5",
+		"@ctx-core/svg": "^18.0.6",
 		"@sveltejs/adapter-auto": "next",
 		"@sveltejs/kit": "next",
 		"@swc/cli": "^0.1.55",
-		"@swc/core": "^1.2.138",
+		"@swc/core": "^1.2.139",
 		"dom-serializer": "^1.3.2",
 		"domhandler": "^4.3.0",
 		"htmlparser2": "^7.2.0",
