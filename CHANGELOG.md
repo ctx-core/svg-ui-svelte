@@ -1,5 +1,12 @@
 # @ctx-core/svg-ui-svelte
 
+## 1.1.21
+
+### Patch Changes
+
+- domhandler: ^4.3.1 -> ^5.0.1
+- svelte: ^3.46.6 -> ^3.47.0
+
 ## 1.1.20
 
 ### Patch Changes
