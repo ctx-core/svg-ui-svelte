@@ -1,5 +1,11 @@
 # @ctx-core/svg-ui-svelte
 
+## 1.1.22
+
+### Patch Changes
+
+- dom-serializer: ^1.3.2 -> ^2.0.0
+
 ## 1.1.21
 
 ### Patch Changes
