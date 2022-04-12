@@ -1,5 +1,16 @@
 # @ctx-core/svg-ui-svelte
 
+## 1.1.24
+
+### Patch Changes
+
+- package.json: exports: update
+- fix: package.json: exports: + default
+- Updated dependencies
+  - @ctx-core/array@26.1.3
+  - @ctx-core/error@11.4.2
+  - @ctx-core/object@22.1.4
+
 ## 1.1.23
 
 ### Patch Changes
