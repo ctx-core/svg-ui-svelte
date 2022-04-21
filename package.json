@@ -44,7 +44,7 @@
 		"@sveltejs/adapter-auto": "next",
 		"@sveltejs/kit": "next",
 		"@swc/cli": "^0.1.57",
-		"@swc/core": "^1.2.168",
+		"@swc/core": "^1.2.170",
 		"dom-serializer": "^2.0.0",
 		"domhandler": "^5.0.2",
 		"htmlparser2": "^7.2.0",
