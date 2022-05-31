@@ -36,15 +36,15 @@
 	"dependencies": {
 		"@ctx-core/array": "^26.4.3",
 		"@ctx-core/error": "^11.4.8",
-		"@ctx-core/object": "^22.2.0",
+		"@ctx-core/object": "^22.2.1",
 		"svelte": "^3.48.0"
 	},
 	"devDependencies": {
-		"@ctx-core/svg": "^18.0.28",
+		"@ctx-core/svg": "^18.0.31",
 		"@sveltejs/adapter-auto": "next",
 		"@sveltejs/kit": "next",
 		"@swc/cli": "^0.1.57",
-		"@swc/core": "^1.2.194",
+		"@swc/core": "^1.2.196",
 		"dom-serializer": "^2.0.0",
 		"domhandler": "^5.0.3",
 		"htmlparser2": "^8.0.1",
