@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/svg-ui-svelte",
-	"version": "1.1.37",
+	"version": "1.1.38",
 	"description": "ctx-core svg",
 	"keywords": [
 		"ctx-core",
@@ -35,7 +35,7 @@
 	},
 	"dependencies": {
 		"@ctx-core/array": "^26.4.3",
-		"@ctx-core/error": "^11.4.8",
+		"@ctx-core/error": "^11.5.0",
 		"@ctx-core/object": "^22.2.1",
 		"svelte": "^3.48.0"
 	},
