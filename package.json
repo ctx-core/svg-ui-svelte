@@ -40,7 +40,7 @@
 		"svelte": "^3.48.0"
 	},
 	"devDependencies": {
-		"@ctx-core/svg": "^18.1.0",
+		"@ctx-core/svg": "^18.1.1",
 		"@sveltejs/adapter-auto": "next",
 		"@sveltejs/kit": "next",
 		"@swc/cli": "^0.1.57",
