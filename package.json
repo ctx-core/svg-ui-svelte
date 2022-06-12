@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/svg-ui-svelte",
-	"version": "1.1.38",
+	"version": "1.1.39",
 	"description": "ctx-core svg",
 	"keywords": [
 		"ctx-core",
@@ -40,7 +40,7 @@
 		"svelte": "^3.48.0"
 	},
 	"devDependencies": {
-		"@ctx-core/svg": "^18.1.1",
+		"@ctx-core/svg": "^18.1.2",
 		"@sveltejs/adapter-auto": "next",
 		"@sveltejs/kit": "next",
 		"@swc/cli": "^0.1.57",
