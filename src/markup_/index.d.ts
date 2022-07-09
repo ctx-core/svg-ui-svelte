@@ -1,5 +1,5 @@
 // export type markup_fn_T =
-export function markup_(builder_opts:markup_builder_opts__T):markup_T
+export function markup_(builder_opts?:markup_builder_opts__T):markup_T
 export interface markup_builder_opts__T {
 	match_?:(opts:match_opts__T)=>string
 }

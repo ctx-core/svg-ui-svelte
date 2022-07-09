@@ -1,5 +1,4 @@
 <script lang="ts">
-import { each } from '@ctx-core/array'
 import { keys, unpick } from '@ctx-core/object'
 export let viewBox:string|null = null, preserveAspectRatio:string|null = null, height:string|number|null = null,
 	width:string|number|null = null, x:string|number|null = null, y:string|number|null = null, style = '',
@@ -10,9 +9,7 @@ $: props = unpick($$props, 'class')
 $: {
 	props
 	if (node) {
-		each(
-			keys(props),
-			prop=>node!.setAttribute(prop, props[prop]))
+		keys(props).forEach($=>node!.setAttribute($, props[$]))
 	}
 }
 </script>

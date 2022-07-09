@@ -5,8 +5,8 @@ import { extname } from 'path'
 import { map } from '@ctx-core/array'
 import { keys } from '@ctx-core/object'
 /** @typedef {import('domhandler').NodeWithChildren} NodeWithChildren */
-/** @typedef {import('./markup_.d.ts').markup_} markup_ */
-/** @typedef {import('./markup_.d.ts').markup_fn_return__T} markup_fn_return__T */
+/** @typedef {import('./index.d.ts').markup_} markup_ */
+/** @typedef {import('./index.d.ts').markup_fn_return__T} markup_fn_return__T */
 /**
  * Returns a svg preprocessor for svelte-rollup.
  */
