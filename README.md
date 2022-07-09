@@ -14,7 +14,7 @@ npm i @ctx-core/svg-ui-svelte
 
 ```javascript
 // rollup.config.js
-import { proprocess_ } from '@ctx-core/svelte'
+import { proprocess_ } from '@ctx-core/svelte/node/node'
 import { svg_preprocess_ } from '@ctx-core/svg-ui-svelte'
 const svg_preprocess = svg_preprocess_()
 const preprocess = proprocess_([
