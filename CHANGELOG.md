@@ -1,5 +1,11 @@
 # @ctx-core/svg-ui-svelte
 
+## 1.2.0
+
+### Minor Changes
+
+- .js + .d.ts instead of .ts
+
 ## 1.1.41
 
 ### Patch Changes
