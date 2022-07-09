@@ -1,4 +1,4 @@
-import getOuterHTML, { DomSerializerOptions } from 'dom-serializer'
+import getOuterHTML  from 'dom-serializer'
 import { DomHandler, hasChildren } from 'domhandler'
 import { Parser } from 'htmlparser2'
 import { extname } from 'path'
@@ -57,7 +57,7 @@ $: {
 }
 /**
  * @param {NodeWithChildren} node
- * @param {DomSerializerOptions}[options]
+ * @param {import('dom-serializer').DomSerializerOptions}[options]
  * @returns {*|string}
  */
 function getInnerHTML(node, options) {

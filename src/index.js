@@ -1,5 +1,5 @@
 import 'svelte'
-export * as Icon from './Icon.svelte'
+//export * as Icon from './Icon/Icon.svelte'
 export * from './[icon_name].svg/index.js'
 export * from './markup/index.js'
 export * from './markup_/index.js'

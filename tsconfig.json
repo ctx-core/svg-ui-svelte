@@ -26,7 +26,8 @@
 		"declarationDir": "src",
 		"lib": ["dom", "ESNext"],
 		"importsNotUsedAsValues": "error",
-		"strict": true
+		"strict": true,
+		"types": ["svelte"]
 	},
 	"exclude": [
 		"node_modules"
