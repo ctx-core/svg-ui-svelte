@@ -1,4 +1,3 @@
-import type { Request, Response } from 'express'
 export function svg_get_(opts?:get_opts__T):(req:Request, res:Response)=>Promise<void>
 export type svg_get__resolve_T = (path:string)=>Promise<string>
 export type get__T = (opts?:get_opts__T)=>get_T
