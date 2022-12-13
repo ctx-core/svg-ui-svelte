@@ -1,5 +1,11 @@
 # @ctx-core/svg-ui-svelte
 
+## 1.2.11
+
+### Patch Changes
+
+- svelte: ^3.54.0 -> ^3.55.0
+
 ## 1.2.10
 
 ### Patch Changes
