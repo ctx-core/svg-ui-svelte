@@ -1,5 +1,15 @@
 # @ctx-core/svg-ui-svelte
 
+## 1.2.30
+
+### Patch Changes
+
+- tsconfig.json: - importsNotUsedAsValues
+- Updated dependencies
+  - @ctx-core/array@26.8.13
+  - @ctx-core/error@11.5.14
+  - @ctx-core/object@24.1.1
+
 ## 1.2.29
 
 ### Patch Changes

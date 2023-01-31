@@ -25,7 +25,6 @@
 		"outDir": "src",
 		"declarationDir": "src",
 		"lib": ["dom", "ESNext"],
-		"importsNotUsedAsValues": "error",
 		"strict": true,
 		"types": ["svelte"]
 	},
