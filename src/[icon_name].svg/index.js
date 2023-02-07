@@ -4,7 +4,7 @@ import { DomHandler, Parser } from 'htmlparser2'
 import resolve from 'resolve'
 import { promisify } from 'util'
 import { find } from '@ctx-core/array'
-import { throw_not_found } from '@ctx-core/error'
+import { not_found__throw } from '@ctx-core/error'
 import { assign } from '@ctx-core/object'
 const resolve_async = promisify(resolve)
 /** @typedef {import('./index.d.ts').get_opts__T} get_opts__T */
@@ -33,7 +33,7 @@ export function svg_get_(opts = {}) {
 			} else {
 				const maybe_node = find(/** @type {Element[]} */(dom), node=>node.name === 'icon')
 				if (!maybe_node) {
-					throw_not_found()
+					not_found__throw()
 				}
 				const node = /** @type {Element} */(maybe_node)
 				node.name = 'svg'
