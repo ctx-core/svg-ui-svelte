@@ -16,7 +16,7 @@ const resolve_async = promisify(resolve)
 export function svg_get_(opts = {}) {
 	const { fn } = opts
 	const resolve = opts.resolve || resolve_async
-	if (typeof resolve !== 'function') throw 'opts.resolve must be a function'
+	if (typeof resolve !== 'function') throw new Error('opts.resolve must be a function')
 	/**
 	 * @param {Request} req
 	 * @param {Response} res

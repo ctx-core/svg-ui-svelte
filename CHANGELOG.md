@@ -1,5 +1,11 @@
 # @ctx-core/svg-ui-svelte
 
+## 1.2.49
+
+### Patch Changes
+
+- fix: `throw new Error(error_message)` instead of `throw error_message`
+
 ## 1.2.48
 
 ### Patch Changes
