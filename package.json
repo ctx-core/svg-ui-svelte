@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/svg-ui-svelte",
-	"version": "1.2.52",
+	"version": "1.2.53",
 	"description": "ctx-core svg",
 	"keywords": [
 		"ctx-core",
@@ -35,7 +35,7 @@
 		"prepublishOnly": "npm run clean && npm run build"
 	},
 	"dependencies": {
-		"@ctx-core/array": "^26.11.4",
+		"@ctx-core/array": "^26.11.5",
 		"@ctx-core/error": "^11.6.4",
 		"@ctx-core/object": "^24.1.8",
 		"dom-serializer": "^2.0.0",
@@ -43,7 +43,7 @@
 		"htmlparser2": "^8.0.1"
 	},
 	"devDependencies": {
-		"@ctx-core/svg": "^18.2.8",
+		"@ctx-core/svg": "^18.2.9",
 		"@sveltejs/adapter-auto": "next",
 		"@sveltejs/kit": "next",
 		"svelte": "^3.55.1",
