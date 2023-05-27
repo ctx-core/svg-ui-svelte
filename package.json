@@ -47,7 +47,7 @@
 		"@sveltejs/adapter-auto": "next",
 		"@sveltejs/kit": "next",
 		"svelte": "^3.59.1",
-		"svelte-preprocess": "^5.0.3",
+		"svelte-preprocess": "^5.0.4",
 		"typescript": "next"
 	},
 	"publishConfig": {
