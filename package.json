@@ -32,7 +32,7 @@
 		"build": ":",
 		"clean": ":",
 		"exec": "$@",
-		"prepublishOnly": "npm run clean && npm run build"
+		"prepublishOnly": "pnpm clean && pnpm build"
 	},
 	"dependencies": {
 		"@ctx-core/array": "^26.12.42",
