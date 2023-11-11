@@ -1,9 +1,9 @@
-import getOuterHTML  from 'dom-serializer'
+import { map } from '@ctx-core/array'
+import { keys } from '@ctx-core/object'
+import getOuterHTML from 'dom-serializer'
 import { DomHandler, hasChildren } from 'domhandler'
 import { Parser } from 'htmlparser2'
 import { extname } from 'path'
-import { map } from '@ctx-core/array'
-import { keys } from '@ctx-core/object'
 /** @typedef {import('domhandler').NodeWithChildren} NodeWithChildren */
 /** @typedef {import('./index.d.ts').markup_} markup_ */
 /** @typedef {import('./index.d.ts').markup_fn_return__T} markup_fn_return__T */
@@ -62,8 +62,10 @@ $: {
  */
 function getInnerHTML(node, options) {
 	return hasChildren(node)
-				 ? node.children.map(function (node) { return getOuterHTML(node, options) }).join('')
-				 : ''
+		? node.children.map(function(node) {
+			return getOuterHTML(node, options)
+		}).join('')
+		: ''
 }
 export {
 	markup_ as _markup,

@@ -1,6 +1,0 @@
-import 'svelte'
-// export * as Icon from './Icon.svelte'
-export * from './[icon_name].svg'
-export * from './markup'
-export * from './markup_'
-export * from './svg_preprocess_'
