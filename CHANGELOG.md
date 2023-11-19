@@ -1,5 +1,25 @@
 # @ctx-core/svg-ui-svelte
 
+## 1.3.18
+
+### Patch Changes
+
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+  - @ctx-core/object@31.0.0
+  - @ctx-core/array@27.0.17
+  - @ctx-core/error@12.4.16
+
+## 1.3.17
+
+### Patch Changes
+
+- @ctx-core/svg: ^18.4.16 -> ^18.4.17
+
 ## 1.3.16
 
 ### Patch Changes

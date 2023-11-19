@@ -7,7 +7,7 @@ import { DomHandler, Parser } from 'htmlparser2'
 import resolve from 'resolve'
 import { promisify } from 'util'
 const resolve_async = promisify(resolve)
-/** @typedef {import('./index.d.ts').get_opts__T} get_opts__T */
+/** @typedef {import('./index.d.ts').get_opts__T} */
 /**
  * Returns a `get` http handler that processes the svelte component whose path
  * is returned from `opts.resolve`.

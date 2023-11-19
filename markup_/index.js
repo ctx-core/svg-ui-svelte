@@ -4,9 +4,9 @@ import getOuterHTML from 'dom-serializer'
 import { DomHandler, hasChildren } from 'domhandler'
 import { Parser } from 'htmlparser2'
 import { extname } from 'path'
-/** @typedef {import('domhandler').NodeWithChildren} NodeWithChildren */
-/** @typedef {import('./index.d.ts').markup_} markup_ */
-/** @typedef {import('./index.d.ts').markup_fn_return__T} markup_fn_return__T */
+/** @typedef {import('domhandler').NodeWithChildren} */
+/** @typedef {import('./index.d.ts').markup_} */
+/** @typedef {import('./index.d.ts').markup_fn_return__T} */
 /**
  * Returns a svg preprocessor for svelte-rollup.
  */
