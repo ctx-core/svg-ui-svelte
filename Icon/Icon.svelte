@@ -1,5 +1,5 @@
-<script>
-	import { keys, unpick } from '@ctx-core/object'
+<script lang="ts">
+	import { keys, unpick } from 'ctx-core/object'
 	/** @type {string|null} */
 	export let viewBox = null
 	/** @type {string|null} */
