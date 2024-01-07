@@ -1,5 +1,11 @@
 # @ctx-core/svg-ui-svelte
 
+## 1.3.91
+
+### Patch Changes
+
+- htmlparser2: ^9.0.0 -> ^9.1.0
+
 ## 1.3.90
 
 ### Patch Changes
