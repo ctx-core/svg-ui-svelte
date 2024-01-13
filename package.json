@@ -57,7 +57,7 @@
 		"@ctx-core/svg": "^19.0.17",
 		"@sveltejs/adapter-auto": "next",
 		"@sveltejs/kit": "next",
-		"c8": "^9.0.0",
+		"c8": "^9.1.0",
 		"check-dts": "^0.7.2",
 		"locate-character": "^3.0.0",
 		"svelte": "^4.2.8",
