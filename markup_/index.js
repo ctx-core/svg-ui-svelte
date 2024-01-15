@@ -4,7 +4,7 @@ import { keys } from 'ctx-core/object'
 import getOuterHTML from 'dom-serializer'
 import { DomHandler, hasChildren } from 'domhandler'
 import { Parser } from 'htmlparser2'
-import { extname } from 'path'
+import { extname } from 'node:path'
 /** @typedef {import('domhandler').NodeWithChildren} */
 /**
  * Returns a svg preprocessor for svelte-rollup.
