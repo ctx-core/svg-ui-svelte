@@ -1,12 +1,16 @@
+import getOuterHTML from 'dom-serializer'
+import { DomHandler, hasChildren } from 'domhandler'
+import { Parser } from 'htmlparser2'
+import { extname } from 'node:path'
 export const markup = markup_()
 export { markup as markup__markdown }
 /** @typedef {import('domhandler').NodeWithChildren} */
 /**
  * Returns a svg preprocessor for svelte-rollup.
  */
-export const markup_ = (
+export function markup_(
 	/** @type {markup_builder_opts__T} */builder_opts = {}
-)=>{
+) {
 	const {
 		match_ = ({ filename })=>extname(filename) === '.svg',
 	} = builder_opts
@@ -20,9 +24,9 @@ export const markup_ = (
 			/** @type {Element} */
 			const { attribs } = dom0
 			const attribs_txt =
-				map(
-					keys(attribs),
-					key=>`${key}=${JSON.stringify(attribs[key])}`).join(' ')
+				Object.keys(attribs).map(
+					key=>
+						`${key}=${JSON.stringify(attribs[key])}`).join(' ')
 			code = `
 <script context="module">
 export async function preload({ params, query }) {
