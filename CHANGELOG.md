@@ -1,5 +1,11 @@
 # @ctx-core/svg-ui-svelte
 
+## 1.3.129
+
+### Patch Changes
+
+- package.json: fix: include all directories
+
 ## 1.3.128
 
 ### Patch Changes
