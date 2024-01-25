@@ -1,5 +1,11 @@
 # @ctx-core/svg-ui-svelte
 
+## 1.3.130
+
+### Patch Changes
+
+- fix: import
+
 ## 1.3.129
 
 ### Patch Changes
