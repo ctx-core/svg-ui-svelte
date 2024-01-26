@@ -55,8 +55,8 @@
 	},
 	"devDependencies": {
 		"@ctx-core/svg": "^19.0.47",
-		"@sveltejs/adapter-auto": "next",
-		"@sveltejs/kit": "next",
+		"@sveltejs/adapter-auto": "^3.1.1",
+		"@sveltejs/kit": "^2.5.0",
 		"c8": "^9.1.0",
 		"check-dts": "^0.7.2",
 		"locate-character": "^3.0.0",
