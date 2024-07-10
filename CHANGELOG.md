@@ -1,5 +1,11 @@
 # @ctx-core/svg-ui-svelte
 
+## 1.3.249
+
+### Patch Changes
+
+- svelte-preprocess: ^6.0.1 -> ^6.0.2
+
 ## 1.3.248
 
 ### Patch Changes
