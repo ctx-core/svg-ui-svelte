@@ -66,7 +66,7 @@
 		"svelte": "^5.56.6",
 		"svelte-preprocess": "^6.0.5",
 		"tsx": "^4.23.1",
-		"typescript": "next",
+		"typescript": "^7.0.2",
 		"uvu": "^0.5.6"
 	},
 	"publishConfig": {
